@@ -62,3 +62,14 @@ const foundCustomer = customers.find (customer => customer === "Peyton");
 console.log (`Found Customer: ${foundCustomer}`);
 
 
+//Task 8- Tax Calculation 
+function calculateTax(amount,taxRate) {
+    const tax= amount * taxRate;
+    console.log(`The tax for $${amount} at a ${taxRate * 100}% rate is $${tax}`);
+    return tax;
+
+}
+
+calculateTax(1000,0.07);
+
+
