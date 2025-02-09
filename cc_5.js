@@ -23,3 +23,13 @@ console.log (`Order ID: ${this.orderId},
 }
 };
 order.displayOrder();
+
+
+//Task 3- Shopping Cart
+const cartItems = ["Chicken, Eggs, Steak"];
+cartItems.push("Turkey");
+cartItems.pop();
+cartItems.unshift("potatoes");
+cartItems.shift();
+console.log (cartItems);
+
