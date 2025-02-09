@@ -73,3 +73,15 @@ function calculateTax(amount,taxRate) {
 calculateTax(1000,0.07);
 
 
+//Task 9- Discount Application
+const applyDiscount = function(price, discount) {
+const discountedPrice = price - (price * discount);
+console.log (`The discounted price is $${discountedPrice}`);
+return discountedPrice;
+};
+
+
+applyDiscount(200,0.15);
+
+
+
