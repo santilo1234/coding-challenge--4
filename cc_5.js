@@ -84,4 +84,14 @@ return discountedPrice;
 applyDiscount(200,0.15);
 
 
+//Task 10- Loyalty Points
+const calculatePoints = purchaseAmounts => {
+const points = Math.floor(purchaseAmounts / 10);
+console.log(`You earned ${points} loyalty points`);
+return points;
+};
+
+calculatePoints(95);
+
+
 
