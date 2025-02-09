@@ -39,3 +39,9 @@ console.log (cartItems);
 const prices= [100,200,300];
 const discountedPrices = prices.map(price => price * 0.9);
 console.log(discountedPrices)
+
+
+//Task 5- Product Availability
+const inventory= [3, 6, 0, 9, 0];
+const availableProducts = inventory.filter(quantity => quantity > 0);
+console.log(availableProducts);
